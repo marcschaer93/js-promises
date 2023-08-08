@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#card-board {
+    height: 80vH;
+    width: 50%;
+    background-color: green;
+}
+.container {
+    display: flex;
+    justify-content: center; /* This centers the child horizontally. */
+    /* align-items: center;     This centers the child vertically. */
+}
+
+#submitBtn {
+    margin-top: 25px;
+}
+
+#card-board {
+    margin-top: 80px;
+  }
+  
+  #card-board > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
